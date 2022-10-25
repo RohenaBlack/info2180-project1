@@ -9,3 +9,34 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+/* Heading INFO2180 project 1 */
+h1{
+    float: left;
+}
+
+/* Start of styling for list with navigation links (about, research...) */
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+  
+li {
+    display: inline;
+    margin-top: 20px;
+}
+
+li a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} /*  End of styling for list with navigation links (about, research...) */
+
+
+/* Start of styling for "LIVE YOUR HEALTHIEST LIFE NOW" section */
+
+
+/* End of styling for "LIVE YOUR HEALTHIEST LIFE NOW" section */
+
+
+
