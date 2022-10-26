@@ -11,9 +11,15 @@ body {
 }
 
 /* Heading INFO2180 project 1 */
-h1{
-    float: left;
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+/* h1{
+    float: left;
+} */
 
 /* Start of styling for list with navigation links (about, research...) */
 ul {
@@ -34,6 +40,19 @@ li a {
 
 
 /* Start of styling for "LIVE YOUR HEALTHIEST LIFE NOW" section */
+
+.overview-hero .container{
+    display: flex;
+}
+
+.overview-hero-image img{
+    width: 300px;
+    height: 310px;
+}
+
+.overview-hero-text{
+    padding: 100px 6px 0px 95px;
+}
 
 
 /* End of styling for "LIVE YOUR HEALTHIEST LIFE NOW" section */
