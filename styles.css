@@ -102,7 +102,22 @@ li a {
 .article-body a{
     text-decoration: none;
     
-}
-/* End of styling for "RECENT STORIES" section */
+} /* End of styling for "RECENT STORIES" section */
 
+
+/* Start of styling for "NEWSLETTER" section */
+.newsletter .container{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form .btn{
+    margin-left: 1%;
+}
+/* End of styling for "NEWSLETTER" section */
 
