@@ -224,7 +224,12 @@ form .btn{
     border-radius: 5px;
     cursor: pointer
 }
+
+.newsletter .message{
+    padding: 12px;
+}
 /* End of styling for "NEWSLETTER" section */
+
 
 /* Footer */
 footer{
