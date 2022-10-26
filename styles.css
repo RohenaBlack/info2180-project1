@@ -17,10 +17,6 @@ header .container{
     align-items: center;
 }
 
-/* h1{
-    float: left;
-} */
-
 /* Start of styling for list with navigation links (about, research...) */
 ul {
     list-style-type: none;
@@ -40,7 +36,6 @@ li a {
 
 
 /* Start of styling for "LIVE YOUR HEALTHIEST LIFE NOW" section */
-
 .overview-hero .container{
     display: flex;
 }
@@ -52,10 +47,32 @@ li a {
 
 .overview-hero-text{
     padding: 100px 6px 0px 95px;
+} /* End of styling for "LIVE YOUR HEALTHIEST LIFE NOW" section */
+
+/* Start of styling for "LEARN ABOUT" section */
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+} /* End of styling for "LEARN ABOUT" section */
+
+/* Start of styling for "COVID-19 TESTING PROGRAMME" section */
+.testing .container{
+    display: flex;
 }
 
+.testing-desciption{
+   margin-right: 20%;
+}
 
-/* End of styling for "LIVE YOUR HEALTHIEST LIFE NOW" section */
+.cta{
+    padding: 7%;
+}
+
+.cta .btn{
+    text-decoration: none;
+}
+
+/* End of styling for "COVID-19 TESTING PROGRAMME" section */
 
 
 
