@@ -17,6 +17,7 @@ header .container{
     align-items: center;
 }
 
+
 /* Start of styling for list with navigation links (about, research...) */
 ul {
     list-style-type: none;
@@ -49,11 +50,19 @@ li a {
     padding: 100px 6px 0px 95px;
 } /* End of styling for "LIVE YOUR HEALTHIEST LIFE NOW" section */
 
+
 /* Start of styling for "LEARN ABOUT" section */
 .cards{
     display: grid;
     grid-template-columns: auto auto auto;
+} 
+
+.cards .card img{
+    width: 300px;
+    height: 290px;
+    
 } /* End of styling for "LEARN ABOUT" section */
+
 
 /* Start of styling for "COVID-19 TESTING PROGRAMME" section */
 .testing .container{
@@ -70,9 +79,30 @@ li a {
 
 .cta .btn{
     text-decoration: none;
+} /* End of styling for "COVID-19 TESTING PROGRAMME" section */
+
+
+/* Start of styling for "RECENT STORIES" section */
+.stories img{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    margin-bottom: 3%;
 }
 
-/* End of styling for "COVID-19 TESTING PROGRAMME" section */
+.stories article{
+   display: flex;
+    
+}
 
+.article-body{
+    padding: 0px 16px 16px 16px;
+}
+
+.article-body a{
+    text-decoration: none;
+    
+}
+/* End of styling for "RECENT STORIES" section */
 
 
